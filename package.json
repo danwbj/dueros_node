@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bot-sdk": "^1.1.1",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "lodash": "^4.17.5"
   }
 }

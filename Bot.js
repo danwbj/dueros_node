@@ -93,7 +93,7 @@ class Bot extends BaseBot {
                 index++
                 a = getAbc(q[index].pk, q[index].definition_choices);
                 // self.setSessionAttribute("abb", a);
-                if (index < 5) { 
+                if (index < 50) { 
                     self.setSessionAttribute('index', index)
                     outputSpeech = `
                     <speak>
