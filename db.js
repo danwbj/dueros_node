@@ -99,7 +99,7 @@ module.exports = {
                 {
                     "pk": 2668,
                     "rank": 953,
-                    "definition": " n.（物体的）飞行； 航班； 飞翔； 楼梯的一段"
+                    "definition": " n. （物体的）飞行； 航班； 飞翔； 楼梯的一段"
                 }, {
                     "pk": 5646,
                     "rank": 915,
@@ -111,7 +111,7 @@ module.exports = {
                 }, {
                     "pk": 4742,
                     "rank": 961,
-                    "definition": " n.英镑； 磅； 兽栏； 重击声"
+                    "definition": " n. 英镑； 磅； 兽栏； 重击声"
                 }
             ],
             "rank": 345
@@ -126,7 +126,7 @@ module.exports = {
                 }, {
                     "pk": 381,
                     "rank": 1193,
-                    "definition": " n.镶板； 面； （门、墙等上面的）嵌板； 控制板"
+                    "definition": " n. 镶板； 面； （门、墙等上面的）嵌板； 控制板"
                 }, {
                     "pk": 6241,
                     "rank": 411,
@@ -168,7 +168,7 @@ module.exports = {
                 {
                     "pk": 3720,
                     "rank": 553,
-                    "definition": " adj.左边的，左侧的； 左派的"
+                    "definition": " adj. 左边的，左侧的； 左派的"
                 }, {
                     "pk": 5217,
                     "rank": 1889,
@@ -237,7 +237,7 @@ module.exports = {
                 {
                     "pk": 3901,
                     "rank": 790,
-                    "definition": " n.多数； （获胜的）票数； 成年； 法定年龄"
+                    "definition": " n. 多数； （获胜的）票数； 成年； 法定年龄"
                 }, {
                     "pk": 5075,
                     "rank": 2487,
@@ -425,7 +425,7 @@ module.exports = {
                 }, {
                     "pk": 13297,
                     "rank": 4494,
-                    "definition": " n.&amp;adj. 仙女,小精灵"
+                    "definition": " n. 仙女,小精灵"
                 }, {
                     "pk": 20831,
                     "rank": 4584,
@@ -475,7 +475,7 @@ module.exports = {
                 }, {
                     "pk": 5007,
                     "rank": 1565,
-                    "definition": " vt.恢复； 重新获得； 找回； <正>恢复（适当的状态或位置）"
+                    "definition": " vt. 恢复； 重新获得； 找回； <正>恢复（适当的状态或位置）"
                 }, {
                     "pk": 9319,
                     "rank": 5001,
@@ -724,7 +724,7 @@ module.exports = {
                 }, {
                     "pk": 23171,
                     "rank": 8233,
-                    "definition": " 电子表格, 数据表"
+                    "definition": " n. 电子表格, 数据表"
                 }, {
                     "pk": 2602,
                     "rank": 2667,
@@ -793,7 +793,7 @@ module.exports = {
                 }, {
                     "pk": 4424,
                     "rank": 2991,
-                    "definition": " n.势力范围, 眼眶, 轨迹"
+                    "definition": " n. 势力范围, 眼眶, 轨迹"
                 }, {
                     "pk": 26345,
                     "rank": 9093,
@@ -954,7 +954,7 @@ module.exports = {
                 }, {
                     "pk": 10413,
                     "rank": 12502,
-                    "definition": " adj.臭名远扬的； 恶名昭著的； 明目张胆的"
+                    "definition": " adj. 臭名远扬的； 恶名昭著的； 明目张胆的"
                 }, {
                     "pk": 13222,
                     "rank": 12389,
@@ -1050,7 +1050,7 @@ module.exports = {
                 }, {
                     "pk": 70962,
                     "rank": 13194,
-                    "definition": " &lt;美&gt;n.奇卡诺人(指墨西哥裔美国人或在美国的讲西班牙语的拉丁美洲人后裔)"
+                    "definition": "n. 奇卡诺人(指墨西哥裔美国人或在美国的讲西班牙语的拉丁美洲人后裔)"
                 }, {
                     "pk": 83844,
                     "rank": 13542,
@@ -1218,7 +1218,7 @@ module.exports = {
                 }, {
                     "pk": 4218,
                     "rank": 845,
-                    "definition": " num.&amp;n. 九"
+                    "definition": "n. 九"
                 }
             ],
             "rank": 765
@@ -1647,7 +1647,7 @@ module.exports = {
                 }, {
                     "pk": 7837,
                     "rank": 3831,
-                    "definition": " n.&amp;adj. 乐观,乐观主义"
+                    "definition": " n. 乐观,乐观主义"
                 }, {
                     "pk": 13029,
                     "rank": 7177,
@@ -1697,7 +1697,7 @@ module.exports = {
                 }, {
                     "pk": 9241,
                     "rank": 8337,
-                    "definition": " vt.搅动，摇动； 使不安； 激烈讨论"
+                    "definition": " vt. 搅动，摇动； 使不安； 激烈讨论"
                 }, {
                     "pk": 10246,
                     "rank": 7897,
@@ -1785,7 +1785,7 @@ module.exports = {
                 }, {
                     "pk": 25584,
                     "rank": 9377,
-                    "definition": " 外包, 在IT软件行业, 外包软件等"
+                    "definition": " n. 外包, 在IT软件行业, 外包软件等"
                 }, {
                     "pk": 11634,
                     "rank": 9453,
@@ -1877,7 +1877,7 @@ module.exports = {
                 }, {
                     "pk": 1480,
                     "rank": 10563,
-                    "definition": " n.小卖部； 食堂，小饭馆； 水罐； 餐具盒，炊具箱"
+                    "definition": " n. 小卖部； 食堂，小饭馆； 水罐； 餐具盒，炊具箱"
                 }, {
                     "pk": 9861,
                     "rank": 10701,
@@ -2126,7 +2126,7 @@ module.exports = {
                 {
                     "pk": 32575,
                     "rank": 13901,
-                    "definition": " n. &lt;日&gt; 艺妓，歌妓"
+                    "definition": " n. 艺妓，歌妓"
                 }, {
                     "pk": 36448,
                     "rank": 13588,
@@ -2405,7 +2405,7 @@ module.exports = {
                 {
                     "pk": 2447,
                     "rank": 856,
-                    "definition": " vt.检查，调查； 考试； 诊察； 审问"
+                    "definition": " vt. 检查，调查； 考试； 诊察； 审问"
                 }, {
                     "pk": 5419,
                     "rank": 1705,
@@ -2451,7 +2451,7 @@ module.exports = {
                 {
                     "pk": 3202,
                     "rank": 1364,
-                    "definition": " n.[计算机]主机； 主人，东道主； 节目主持人； 酒店业主"
+                    "definition": " n. [计算机]主机； 主人，东道主； 节目主持人； 酒店业主"
                 }, {
                     "pk": 6919,
                     "rank": 2144,
@@ -2463,7 +2463,7 @@ module.exports = {
                 }, {
                     "pk": 5916,
                     "rank": 2065,
-                    "definition": " 游泳"
+                    "definition": "v. 游泳"
                 }
             ],
             "rank": 1364
@@ -2520,7 +2520,7 @@ module.exports = {
                 {
                     "pk": 2987,
                     "rank": 2432,
-                    "definition": " adj.重大的，重要的； 严重的； [音乐]沉重的； （颜色等）朴素的"
+                    "definition": " adj. 重大的，重要的； 严重的； [音乐]沉重的； （颜色等）朴素的"
                 }, {
                     "pk": 1253,
                     "rank": 1980,
@@ -2570,7 +2570,7 @@ module.exports = {
                 }, {
                     "pk": 607,
                     "rank": 3198,
-                    "definition": " n.建立，组成； 体格； 构成方式； 宪法"
+                    "definition": " n. 建立，组成； 体格； 构成方式； 宪法"
                 }, {
                     "pk": 10129,
                     "rank": 3275,
@@ -2785,7 +2785,7 @@ module.exports = {
                 }, {
                     "pk": 7319,
                     "rank": 6878,
-                    "definition": " vt.& vi. 阿谀奉承, 取悦, 炫耀"
+                    "definition": " v. 阿谀奉承, 取悦, 炫耀"
                 }
             ],
             "rank": 4329
@@ -2896,7 +2896,7 @@ module.exports = {
                 }, {
                     "pk": 546,
                     "rank": 8695,
-                    "definition": " n.顿悟,(神灵）显现 Ephiphanyn: [宗]主显节"
+                    "definition": " n. 顿悟,(神灵）显现 Ephiphanyn: [宗]主显节"
                 }, {
                     "pk": 9787,
                     "rank": 5454,
@@ -3145,7 +3145,7 @@ module.exports = {
                 }, {
                     "pk": 21711,
                     "rank": 12230,
-                    "definition": " n.嗝； 连续地打嗝； 暂时性的小问题； 短暂的停顿"
+                    "definition": " n. 嗝； 连续地打嗝； 暂时性的小问题； 短暂的停顿"
                 }, {
                     "pk": 30163,
                     "rank": 12253,
@@ -3214,7 +3214,7 @@ module.exports = {
                 }, {
                     "pk": 70962,
                     "rank": 13194,
-                    "definition": " &lt;美&gt;n.奇卡诺人(指墨西哥裔美国人或在美国的讲西班牙语的拉丁美洲人后裔)"
+                    "definition": "n. 奇卡诺人(指墨西哥裔美国人或在美国的讲西班牙语的拉丁美洲人后裔)"
                 }, {
                     "pk": 109327,
                     "rank": 13059,
@@ -3329,7 +3329,7 @@ module.exports = {
                 }, {
                     "pk": 74006,
                     "rank": 15060,
-                    "definition": " adj.&lt;俚&gt;极大的,其大无比的"
+                    "definition": " adj. 极大的,其大无比的"
                 }, {
                     "pk": 12476,
                     "rank": 12728,
