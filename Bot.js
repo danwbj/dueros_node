@@ -43,12 +43,16 @@ class Bot extends BaseBot {
             // var level = this.getSlot('level')
             // console.log('level: ', level);
             let q = []
+            let vocabulary = 0
             let level= users_level[userId]
             if (level == '四级') {
+                vocabulary = 4000
                 q = db.cet_4
             } else if (level == '六级') {
+                vocabulary = 6000
                 q = db.cet_6
             } else if (level == '英专') {
+                vocabulary = 14000
                 q = db.tem
             }
             var self = this;
@@ -96,21 +100,23 @@ class Bot extends BaseBot {
                         a. <slience time="1s"></slience>${q[index].definition_choices[0].definition.split('. ')[1]}; <slience time="3s"></slience>
                         b. <slience time="1s"></slience>${q[index].definition_choices[1].definition.split('. ')[1]}; <slience time="3s"></slience>
                         c. <slience time="1s"></slience>${q[index].definition_choices[2].definition.split('. ')[1]}; <slience time="3s"></slience>
-                        d. <slience time="1s"></slience>${q[index].definition_choices[3].definition.split('. ')[1]}; <slience time="3s"></slience>abc您选哪一个？
+                        d. <slience time="1s"></slience>${q[index].definition_choices[3].definition.split('. ')[1]}; <slience time="3s"></slience>请选择！
                     </speak>  
                     `
                     this.nlu.ask('answer');
                     return {
                       outputSpeech: outputSpeech,
-                      reprompt: 'abcd您选哪一个？'
+                      reprompt: '请选择!'
                     }
                   } else {
-          
+        
+                    console.log('-----------', index)
+                    console.log('-----------',score)
                     outputSpeech = `
                     <speak>
                     ${result}
                     您在本轮总共答对了${score}个单词！
-                    您的单词量为：${score*100}
+                    您的单词量大约为：${Math.ceil(parseInt(score)/index*vocabulary)}
                     </speak>        
                     `
                     this.clearSessionAttribute()
