@@ -10,6 +10,7 @@ class Bot extends BaseBot {
         let userId = this.request.getUserId()
 
         this.addLaunchHandler(() => {
+            this.waitAnswer()
             return {outputSpeech: `
             欢迎使用单词量测试! 5分钟，评估你的单词量
             评估过程包括三步：
@@ -20,10 +21,12 @@ class Bot extends BaseBot {
         });
 
         this.addSessionEndedHandler(() => {
+            this.waitAnswer()
             return {outputSpeech: '再见'}
         })
 
         this.addIntentHandler('select_level', () => {
+            this.waitAnswer()
             return {outputSpeech: `
         您想要测试什么级别的英语单词量呢？四级、六级、英专
           `}
@@ -31,6 +34,7 @@ class Bot extends BaseBot {
         this.addIntentHandler('level_ok', () => { 
             var level = this.getSlot('level')
             users_level[userId] = level
+            this.waitAnswer()
             return {outputSpeech: `
             您选择了${level}单词量测试，准备好了请说:开始测试
             `};
@@ -104,6 +108,7 @@ class Bot extends BaseBot {
                     </speak>  
                     `
                     this.nlu.ask('answer');
+                    this.waitAnswer()
                     return {
                       outputSpeech: outputSpeech,
                       reprompt: '请选择!'
@@ -121,6 +126,7 @@ class Bot extends BaseBot {
                     `
                     this.clearSessionAttribute()
                     this.endSession()
+                    this.waitAnswer()
                     return {
                       outputSpeech: outputSpeech,
                     }
@@ -134,7 +140,7 @@ class Bot extends BaseBot {
             self.setSessionAttribute("index", index);
             // self.setSessionAttribute("abb", a);
             self.setSessionAttribute("score", score);
-
+            this.waitAnswer()
             return new Promise(function (resolve, reject) {
                 resolve({outputSpeech: `
                     <speak>
