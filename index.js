@@ -11,7 +11,6 @@ var app = express();
 
 // 探活请求
 app.head('/', (req, res) => {
-    console.log('aaaaaaaaa')
     res.sendStatus(204);
 });
 // 探活请求
@@ -31,7 +30,6 @@ app.post('/', (req, res) => {
         var requestBody;
         try {
           requestBody = JSON.parse(req.rawBody);
-    //      console.log(requestBody);
         } catch (e) {
           console.error(e);
           return res.send(JSON.stringify({ status: 1 }));
@@ -69,4 +67,4 @@ app.post('/', (req, res) => {
       });
 }).listen(8015);
 
-console.log('listen 8014');
+console.log('listen 8015');

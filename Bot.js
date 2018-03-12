@@ -45,7 +45,6 @@ class Bot extends BaseBot {
          * 获取对应的测试数据
          */
             // var level = this.getSlot('level')
-            // console.log('level: ', level);
             let q = []
             let vocabulary = 0
             let level= users_level[userId]
@@ -68,14 +67,12 @@ class Bot extends BaseBot {
 
             if (answer) {
                 index = self.getSessionAttribute('index')
-                console.log('index: ', index);
                 if (!index) { 
                     index = 0;
                 }
                 //a = self.getSessionAttribute('abb')
                 a = getAbc(q[index].pk, q[index].definition_choices);
                 score = self.getSessionAttribute('score')
-                console.log('score: ', score);
                 if (!score) { 
                     score = 0;
                 }
@@ -115,8 +112,6 @@ class Bot extends BaseBot {
                     }
                   } else {
         
-                    console.log('-----------', index)
-                    console.log('-----------',score)
                     outputSpeech = `
                     <speak>
                     ${result}
