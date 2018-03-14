@@ -82,10 +82,10 @@ class Bot extends BaseBot {
                     score++
                     self.setSessionAttribute('score', score)
 
-                    result = `您选择${answer}，恭喜您答对了！<slience time="3s"></slience>`
+                    result = `您选择${answer}，恭喜您答对了！`
 
                 } else {
-                    result = `您选择${answer}，抱歉您答错了！ 正确答案是${a}。<slience time="3s"></slience>`
+                    result = `您选择${answer}，抱歉您答错了！ 正确答案是${a}。`
                 }
                 index++
                 a = getAbc(q[index].pk, q[index].definition_choices);
@@ -97,18 +97,17 @@ class Bot extends BaseBot {
                         ${result}
                         请听下一题
                         ${q[index].content}
-                        <slience time="5s"></slience>
-                        a. <slience time="1s"></slience>${q[index].definition_choices[0].definition.split('. ')[1]}; <slience time="3s"></slience>
-                        b. <slience time="1s"></slience>${q[index].definition_choices[1].definition.split('. ')[1]}; <slience time="3s"></slience>
-                        c. <slience time="1s"></slience>${q[index].definition_choices[2].definition.split('. ')[1]}; <slience time="3s"></slience>
-                        d. <slience time="1s"></slience>${q[index].definition_choices[3].definition.split('. ')[1]}; <slience time="3s"></slience>请选择！
+                        a. ${q[index].definition_choices[0].definition.split('. ')[1]}; 
+                        b. ${q[index].definition_choices[1].definition.split('. ')[1]}; 
+                        c. ${q[index].definition_choices[2].definition.split('. ')[1]}; 
+                        d. ${q[index].definition_choices[3].definition.split('. ')[1]}; abcd您选哪一个？
                     </speak>  
                     `
                     this.nlu.ask('answer');
                     this.waitAnswer()
                     return {
                       outputSpeech: outputSpeech,
-                      reprompt: '请选择!'
+                      reprompt: 'abcd您选哪一个？'
                     }
                   } else {
         
@@ -141,11 +140,10 @@ class Bot extends BaseBot {
                     <speak>
                     总共${q.length}道题，现在开始测试，请听第一题：
                     ${q[index].content}
-                    <slience time="5s"></slience>
-                        a. <slience time="1s"></slience>${q[index].definition_choices[0].definition.split('. ')[1]}; <slience time="3s"></slience>
-                        b. <slience time="1s"></slience>${q[index].definition_choices[1].definition.split('. ')[1]}; <slience time="3s"></slience>
-                        c. <slience time="1s"></slience>${q[index].definition_choices[2].definition.split('. ')[1]}; <slience time="3s"></slience>
-                        d. <slience time="1s"></slience>${q[index].definition_choices[3].definition.split('. ')[1]}; <slience time="3s"></slience>abc您选哪一个？
+                        a. ${q[index].definition_choices[0].definition.split('. ')[1]}; 
+                        b. ${q[index].definition_choices[1].definition.split('. ')[1]}; 
+                        c. ${q[index].definition_choices[2].definition.split('. ')[1]}; 
+                        d. ${q[index].definition_choices[3].definition.split('. ')[1]}; abcd您选哪一个？
                     </speak>
                     `, reprompt: 'abcd您选哪一个？'})
             })
